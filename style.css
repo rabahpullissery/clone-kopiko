@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: black;
+    width: 100%;
+    height: 2300px;
+}
+.header{
+    width: 100%;
+    height: 228px;
+}
+.title{
+    color: rgb(183, 183, 183);
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 5px;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+.hedd{
+    text-decoration: none;
+    color: rgb(183, 183, 183);
+}
+.hedd:hover{
+    color: rgb(255, 57, 57);
+    transition: all 0.8s;
+}
+.sub-title{
+    color: rgb(183, 183, 183);
+    display: flex;
+    justify-content: center;                                                                                                                                                                                                                                                                                                                
+    letter-spacing: 4px;
+    padding-bottom: 57px;
+}
+#heading li:hover{
+color: rgb(255, 57, 57);
+transition: 0.5s;
+}
+hr{
+    width: 1183px;
+    border: none;
+    margin: 1px 60px;
+    background-color: gray;
+    height: 1px;
+    margin-top: -10px;
+}
+#heading{
+    margin-left: 337px;
+    margin-top: 23px;
+}
+.sub-heading{
+    color: rgb(183, 183, 183);
+    list-style: none;
+    display: inline;
+    margin-right: 35px;
+    cursor: pointer;
+}
+.image1{
+   width: 100%;
+   padding-bottom: 100px;
+}
+.text{
+   text-align: center;
+   padding-bottom: 230px;
+   font-weight: 700;
+}
+.para1{
+    color: rgb(112, 112, 112);
+    padding-bottom: 40px;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+
+}
+.para2{
+    color: rgb(112, 112, 112);
+    font-size: 21px;
+    padding-bottom: 50px;
+    font-family: "Roboto", Sans-serif;
+}
+.image2{
+    width: 70%;
+
+}
+.final{
+    margin-left: 483px;
+    display: flex;
+    padding-bottom: 150px;
+    align-items: center;
+}
+
+.fnl{
+    float: left;
+    margin-right: 84px;
+    cursor: pointer;
+    width: 24px;
+}
+.fnl1{
+    float: left;
+    margin-right: 84px;
+    cursor: pointer;
+    width: 49px;
+}
+.fnl2{
+    float: left;
+    margin-right: 84px;
+    cursor: pointer;
+    width: 24px;
+}
+.fnl3{
+    float: left;
+    margin-right: 84px;
+    cursor: pointer;
+    width: 25px;
+}
+.footer-text{
+    margin-left: 470px;
+    color:rgb(183, 183, 183);
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+}
+.footersite{
+    text-decoration: none;
+    color: rgb(183, 183, 183);
+    font-weight: bold;
+}
+.footersite:hover{
+    color: rgb(255, 57, 57);
+    transition: all 0.8s;
+}
